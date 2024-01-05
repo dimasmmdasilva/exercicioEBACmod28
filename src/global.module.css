@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form {
+    margin-left: 7em;
+    margin-top: 7em;
+}
+
+.form h1 {
+    margin-bottom: 1em;
+}
+
+.form label {
+    margin-top: 1em;
+}
+
+.form input {
+    width: 20em;
+    margin-left: 1rem;
+}
+
+.form button {
+    margin-right: 2em;
+    width: 10em;
+}
+
+.fieldGroup {
+    display: flex;
+    gap: 1rem;
+}
+
+.field {
+    flex: 1;
+}
+
+.field input[type="text"] {
+    width: 20em;
+}
+
+.field input[type="number"] {
+    width: 4em;
+}
